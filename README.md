@@ -5,7 +5,7 @@
  
  
  ## 1.METHODOLOGY.
- <img src = "https://github.com/Hemant1704/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/flow.png" height = 400px width = 500px align = "right"></img>
+ <img src = "https://github.com/ThisisRitikRao/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/flow.png" height = 400px width = 500px align = "right"></img>
  
 As we discussed above that data security is very important and the current algorithms can be under attack and data can be decrypted by the attacker for malicious use. Thus we have presented our hybrid algorithm which will be much more secured as well as perform better than the current in use algorithms. Instead of using one single algorithm to protect user’s data we have proposed a hybrid encryption system in which we will be using the three most popular encrypting algorithms:<br>
 <b>1.DES (Data Encryption Standard)<br>
@@ -16,8 +16,8 @@ Our methodology will ensure maximum data security as our algorithm will first di
 
 
 ## 2.Important python modules and libraries
-<img src = "https://github.com/Hemant1704/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/client_modules.JPG">
-<img src = "https://github.com/Hemant1704/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/server_modules.JPG">
+<img src = "https://github.com/ThisisRitikRao/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/client_modules.JPG">
+<img src = "https://github.com/ThisisRitikRao/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/server_modules.JPG">
 
 
 
@@ -30,7 +30,7 @@ Our methodology will ensure maximum data security as our algorithm will first di
 
 ### Client.py:
 <br>
-<img src = "https://github.com/Hemant1704/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/SERVERIMAGE.JPG" align = "right">
+<img src = "https://github.com/ThisisRitikRao/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/SERVERIMAGE.JPG" align = "right">
 1. Create a tcp/ip socket using socket.socket()
 <br>
 2. Enter socket parameters such that it will be a ipv4
@@ -54,7 +54,7 @@ by the user to the server for encryption process.
 <br>
 Here now we also need to connect this server with the client to receive the data he has entered and wants to be encrypted and then stored.
 <br>
-<img src = "https://github.com/Hemant1704/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/TRANSFER.JPG" align = "right">
+<img src = "https://github.com/ThisisRitikRao/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/TRANSFER.JPG" align = "right">
 1. Connect the server at the same port as of client.
 <br>
 2. Receive the data sent to server in the same order
@@ -102,11 +102,11 @@ with the original text
 ## 5.WORKING OF THE ALGORITHM
 
 ### Executing Client.py (take user's input message)
-<img src="https://github.com/Hemant1704/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/client.JPG">
+<img src="https://github.com/ThisisRitikRao/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/client.JPG">
 
 ### Executing server.py - (encryption and decryption)
-<img src="https://github.com/Hemant1704/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/server.JPG">
-<img src = "https://github.com/Hemant1704/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/decrypted.JPG">
+<img src="https://github.com/ThisisRitikRao/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/server.JPG">
+<img src = "https://github.com/ThisisRitikRao/NEW-HYBRID-ENCRYPTION-ALGORITHM-FOR-INCREASED-SECURITY/blob/main/images/decrypted.JPG">
 
 ## 6.RESULTS AND CONCLUSION
 <b>We have studied that our proposed hybrid algorithm for data encryption performs better than presently used encryption algorithms. We have also compared our methodology with Data Encryption Standard algorithm (DES), Data encryption standard and Advance encryption standard algorithm. We have found that our algorithm is efficient in terms of providing more security as our algorithm not allows attacker to easily decrypt the messages. It will be hard for the attacker to find the encryption algorithm as we have not used just a single encryption method. Also even if the attacker finds the 3 algorithms we have used,still oursystemwill be secured because of the randomness on the use of algorithm on different part of the message. Thus providing one more layer of security.</b>
